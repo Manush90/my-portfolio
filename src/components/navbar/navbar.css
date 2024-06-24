@@ -1,0 +1,17 @@
+/* src/components/navbar/navbar.css */
+.mynav {
+  font-family: "Kanit", sans-serif;
+  width: 100% !important;
+}
+
+.colornavlink {
+  color: rgb(81, 255, 0);
+}
+
+.centrato {
+  justify-content: center !important;
+}
+
+div#basic-navbar-nav.navbar-collapse.collapse {
+  justify-content: center !important;
+}
