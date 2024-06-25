@@ -15,8 +15,12 @@
 
 .marquee-text {
   display: inline-block;
-  padding: 0 100%;
   font-size: 1.5rem;
   font-family: "Silkscreen", sans-serif;
   color: black;
+}
+
+h5.marquee-text {
+  margin: 0;
+  white-space: nowrap;
 }

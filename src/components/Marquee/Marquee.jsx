@@ -4,12 +4,17 @@ import "./marquee.css";
 
 const MarqueeText = () => {
   return (
-    <div className="marquee-container">
-      <Marquee gradient={false} speed={30}>
-        <p className="marquee-text m-0">.::Welcome::. </p>
-      </Marquee>
-      <Marquee gradient={false} speed={50}>
-        <p className="marquee-text m-0">-You are just arrived at Manuel's Portfolio- </p>
+    <div className="marquee-container text-center">
+      <p className="marquee-text m-0">.::Welcome to my portfolio::. </p>
+      <hr className="m-0"></hr>
+      <Marquee
+        gradient={false}
+        speed={90}
+        delay={0}
+        loop={0}
+        style={{ overflow: "hidden", width: "100%" }}
+      >
+        <h5 className="marquee-text m-0">Manuel Dell'Oste - FrontEnd Developer</h5>
       </Marquee>
     </div>
   );

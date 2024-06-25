@@ -21,7 +21,22 @@
   display: inline-block;
 }
 
+.shuttleBoy-container {
+  overflow: hidden;
+  width: 100%;
+}
+
 /* Aggiungi altre regole CSS generali se necessario */
 h2 {
   margin: 0px;
+}
+
+.bigShip:hover {
+  transform: scale(2);
+}
+
+@media (min-width: 576px) {
+  .shuttle-image {
+    height: 350px;
+  }
 }

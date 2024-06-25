@@ -1,12 +1,4 @@
-.raggio {
-  max-width: fit-content;
-}
-
-h2 {
-  color: greenyellow;
-}
-
-@keyframes rotate-clockwise {
+@keyframes rotate {
   from {
     transform: rotate(0deg);
   }
@@ -15,39 +7,42 @@ h2 {
   }
 }
 
-@keyframes rotate-counterclockwise {
+@keyframes rotate-fast {
   from {
     transform: rotate(0deg);
   }
   to {
-    transform: rotate(-360deg);
+    transform: rotate(360deg);
   }
 }
 
-.rotating-clockwise {
-  animation: rotate-clockwise 35s linear infinite;
+.rotating {
+  animation: rotate 25s linear infinite;
+  display: inline-block;
+  transition: transform 0.3s ease-in-out;
 }
 
-.rotating-counterclockwise {
-  animation: rotate-counterclockwise 35s linear infinite;
+.rotating:hover {
+  animation: rotate-fast 1s linear infinite;
+  transform: scale(2);
 }
 
-@media (min-width: 577px) {
-  .marginNoMobileMx {
-    margin-left: 80px;
-    margin-right: 80px;
-  }
+h2 {
+  color: greenyellow;
 }
 
-@media (min-width: 577px) {
-  .marginNoMobileUpDown {
-    margin-top: 80px;
-    margin-bottom: 80px;
-  }
+h2:hover {
+  transform: scale(2);
+  color: rgb(147, 17, 223);
+  transform: translateY(10px);
 }
 
-@media (min-width: 577px) {
-  .marginProject {
-    margin-bottom: 180px;
+.bigPlanet:hover {
+  transform: scale(1.5);
+}
+
+@media (min-width: 576px) {
+  .pianeta-image {
+    height: 250px; /* Dimensione aumentata per schermi superiori a 576px */
   }
 }

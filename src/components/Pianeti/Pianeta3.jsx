@@ -5,10 +5,10 @@ import "./pianeti.css";
 const MyComponent = () => {
   return (
     <>
-      <div className="d-flex rotating-clockwise marginProjects marginNoMobileMx rotating2 raggio mt-5">
+      <div className="d-flex mx-2">
         <div>
-          <h2 className="text-center">About Me</h2>
-          <Image className="rotating-clockwise" height={120} src="/pianeta3.png" rounded />
+          <h2 className="text-center mb-3">About Me</h2>
+          <Image className="rotating pianeta-image" height={110} src="/pianeta3.png" rounded />
         </div>
       </div>
     </>
