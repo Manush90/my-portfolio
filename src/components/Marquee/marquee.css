@@ -9,28 +9,12 @@
   width: 100%;
   overflow: hidden;
   background-color: black;
-  color: white;
 }
 
-.marquee {
-  display: inline-block;
-  white-space: nowrap;
-  animation: marquee 10s linear infinite;
-}
-
-@keyframes marquee {
-  0% {
-    transform: translateX(100%);
-  }
-  100% {
-    transform: translateX(-100%);
-  }
-}
-
-.marquee p {
+.marquee-text {
   display: inline;
   padding: 10px 0;
   font-size: 1.5rem;
   font-family: "Silkscreen", sans-serif;
-  color: rgb(255, 255, 255);
+  color: rgb(150, 209, 102);
 }

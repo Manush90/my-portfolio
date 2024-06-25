@@ -5,7 +5,7 @@ import "./navbar.css";
 
 const NavigationBar = () => {
   return (
-    <Navbar bg="dark" variant="dark" expand="lg" className="navbar-custom ">
+    <Navbar bg="dark" variant="dark" className="navbar-custom ">
       <Container fluid className="justify-content-center d-flex ">
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">

@@ -1,12 +1,13 @@
 import React from "react";
+import Marquee from "react-fast-marquee";
 import "./marquee.css";
 
 const MarqueeText = () => {
   return (
     <div className="marquee-container">
-      <div className="marquee ">
-        <p>Benvenuto nel mio Portfolio !</p>
-      </div>
+      <Marquee gradient={false} speed={150}>
+        <p className="marquee-text">Welcome to My Portfolio!</p>
+      </Marquee>
     </div>
   );
 };
