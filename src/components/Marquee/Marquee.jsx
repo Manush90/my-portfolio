@@ -5,8 +5,11 @@ import "./marquee.css";
 const MarqueeText = () => {
   return (
     <div className="marquee-container">
-      <Marquee gradient={false} speed={150}>
-        <p className="marquee-text">Welcome to My Portfolio!</p>
+      <Marquee gradient={false} speed={30}>
+        <p className="marquee-text m-0">.::Welcome::. </p>
+      </Marquee>
+      <Marquee gradient={false} speed={50}>
+        <p className="marquee-text m-0">-You are just arrived at Manuel's Portfolio- </p>
       </Marquee>
     </div>
   );

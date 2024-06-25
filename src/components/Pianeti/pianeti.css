@@ -1,0 +1,53 @@
+.raggio {
+  max-width: fit-content;
+}
+
+h2 {
+  color: greenyellow;
+}
+
+@keyframes rotate-clockwise {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes rotate-counterclockwise {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(-360deg);
+  }
+}
+
+.rotating-clockwise {
+  animation: rotate-clockwise 35s linear infinite;
+}
+
+.rotating-counterclockwise {
+  animation: rotate-counterclockwise 35s linear infinite;
+}
+
+@media (min-width: 577px) {
+  .marginNoMobileMx {
+    margin-left: 80px;
+    margin-right: 80px;
+  }
+}
+
+@media (min-width: 577px) {
+  .marginNoMobileUpDown {
+    margin-top: 80px;
+    margin-bottom: 80px;
+  }
+}
+
+@media (min-width: 577px) {
+  .marginProject {
+    margin-bottom: 180px;
+  }
+}

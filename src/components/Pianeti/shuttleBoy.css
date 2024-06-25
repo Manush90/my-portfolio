@@ -1,0 +1,27 @@
+@keyframes pendulum {
+  0% {
+    transform: translateY(0) rotate(0deg);
+  }
+  25% {
+    transform: translateY(-10px) rotate(10deg);
+  }
+  50% {
+    transform: translateY(0) rotate(0deg);
+  }
+  75% {
+    transform: translateY(-10px) rotate(-10deg);
+  }
+  100% {
+    transform: translateY(0) rotate(0deg);
+  }
+}
+
+.shuttleBoy {
+  animation: pendulum 14s ease-in-out infinite;
+  display: inline-block;
+}
+
+/* Aggiungi altre regole CSS generali se necessario */
+h2 {
+  margin: 0px;
+}

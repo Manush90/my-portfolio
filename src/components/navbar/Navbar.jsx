@@ -5,7 +5,7 @@ import "./navbar.css";
 
 const NavigationBar = () => {
   return (
-    <Navbar bg="dark" variant="dark" className="navbar-custom ">
+    <Navbar bg="dark" variant="dark" className="navbar-custom navback mb-3">
       <Container fluid className="justify-content-center d-flex ">
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
@@ -24,7 +24,7 @@ const NavigationBar = () => {
                 About Me
               </Nav.Link>
               <Nav.Link className="colornavlink" href="#contact">
-                Contact
+                Contacts
               </Nav.Link>
             </div>
           </Nav>

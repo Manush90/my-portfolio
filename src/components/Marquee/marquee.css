@@ -8,13 +8,15 @@
 .marquee-container {
   width: 100%;
   overflow: hidden;
-  background-color: black;
+  white-space: nowrap;
+  background-color: greenyellow;
+  margin: 0 !important;
 }
 
 .marquee-text {
-  display: inline;
-  padding: 10px 0;
+  display: inline-block;
+  padding: 0 100%;
   font-size: 1.5rem;
   font-family: "Silkscreen", sans-serif;
-  color: rgb(150, 209, 102);
+  color: black;
 }
