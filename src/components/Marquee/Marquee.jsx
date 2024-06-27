@@ -5,7 +5,7 @@ import "./marquee.css";
 const MarqueeText = () => {
   return (
     <div className="marquee-container text-center marginBottomm">
-      <p className="marquee-text m-0">.::Welcome totmy portfolio::. </p>
+      <p className="marquee-text m-0">.::Welcome to my portfolio::. </p>
       <hr className="m-0"></hr>
       <Marquee
         gradient={false}
@@ -14,7 +14,7 @@ const MarqueeText = () => {
         loop={0}
         style={{ overflow: "hidden", width: "100%" }}
       >
-        <h5 className="marquee-text m-0">Manuel Dell'Oste - FrontEnd Developer</h5>
+        <h5 className="marquee-text m-0">&nbsp;Manuel Dell'Oste - FrontEnd Developer&nbsp;</h5>
       </Marquee>
     </div>
   );

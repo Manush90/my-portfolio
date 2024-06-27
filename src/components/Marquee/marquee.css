@@ -28,3 +28,10 @@ h5.marquee-text {
 .marginBottomm {
   margin-bottom: 10px !important;
 }
+
+@media (max-width: 576px) {
+  p,
+  h5 {
+    font-size: larger !important;
+  }
+}

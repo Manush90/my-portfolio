@@ -1,0 +1,47 @@
+.about-me-container {
+  margin-top: 10px;
+}
+
+.profile-picture {
+  width: 150px;
+  height: 150px;
+  margin-top: 20px;
+}
+
+.about-me-text {
+  margin-top: 20px;
+  font-size: 1.2em;
+  line-height: 1.5;
+}
+
+hr {
+  color: greenyellow;
+}
+
+.greenColor {
+  color: greenyellow !important;
+}
+
+a {
+  text-decoration: none;
+}
+
+i {
+  font-size: 2rem;
+}
+
+p {
+  text-align: justify;
+}
+
+.backArrow {
+  font-size: 2rem !important;
+}
+
+.backArrow:hover {
+  color: purple !important;
+}
+
+.violetColor:hover {
+  color: violet;
+}

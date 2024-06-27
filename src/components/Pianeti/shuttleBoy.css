@@ -16,6 +16,21 @@
   }
 }
 
+@keyframes flyInFromSide {
+  0% {
+    transform: translateX(-100%) scale(0.3);
+    opacity: 0;
+  }
+  50% {
+    transform: translateX(20%) scale(0.7);
+    opacity: 0.5;
+  }
+  100% {
+    transform: translateX(0) scale(1);
+    opacity: 1;
+  }
+}
+
 .shuttleBoy {
   animation: pendulum 14s ease-in-out infinite;
   display: inline-block;
@@ -26,7 +41,10 @@
   width: 100%;
 }
 
-/* Aggiungi altre regole CSS generali se necessario */
+.shuttle-image {
+  animation: flyInFromSide 2s ease-in-out;
+}
+
 h2 {
   margin: 0px;
 }
