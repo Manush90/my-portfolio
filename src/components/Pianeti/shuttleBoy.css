@@ -32,7 +32,7 @@ h2 {
 }
 
 .bigShip:hover {
-  transform: scale(2);
+  transform: scale(1.6);
 }
 
 @media (min-width: 576px) {

@@ -1,3 +1,14 @@
+@keyframes dropIn {
+  0% {
+    opacity: 0;
+    transform: translateY(-100vh) scale(3);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
 @keyframes rotate {
   from {
     transform: rotate(0deg);
@@ -14,6 +25,27 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.dropIn {
+  opacity: 0;
+  animation: dropIn 0.8s ease-out forwards;
+}
+
+.dropIn-delay-0 {
+  animation-delay: 1s;
+}
+
+.dropIn-delay-1 {
+  animation-delay: 1.3s;
+}
+
+.dropIn-delay-2 {
+  animation-delay: 1.6s;
+}
+
+.dropIn-delay-3 {
+  animation-delay: 1.9s;
 }
 
 .rotating {
@@ -43,6 +75,6 @@ h2:hover {
 
 @media (min-width: 576px) {
   .pianeta-image {
-    height: 250px; /* Dimensione aumentata per schermi superiori a 576px */
+    height: 250px;
   }
 }

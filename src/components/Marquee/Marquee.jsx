@@ -4,8 +4,8 @@ import "./marquee.css";
 
 const MarqueeText = () => {
   return (
-    <div className="marquee-container text-center">
-      <p className="marquee-text m-0">.::Welcome to my portfolio::. </p>
+    <div className="marquee-container text-center marginBottomm">
+      <p className="marquee-text m-0">.::Welcome totmy portfolio::. </p>
       <hr className="m-0"></hr>
       <Marquee
         gradient={false}

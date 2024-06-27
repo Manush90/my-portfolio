@@ -24,3 +24,7 @@ h5.marquee-text {
   margin: 0;
   white-space: nowrap;
 }
+
+.marginBottomm {
+  margin-bottom: 10px !important;
+}
