@@ -1,10 +1,11 @@
+/* AboutMe.css */
 .about-me-container {
   margin-top: 10px;
 }
 
 .profile-picture {
-  width: 150px;
-  height: 150px;
+  width: 250px;
+  height: 250px;
   margin-top: 20px;
 }
 
@@ -42,6 +43,35 @@ p {
   color: purple !important;
 }
 
-.violetColor:hover {
-  color: violet;
+.hidden {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.5s, transform 0.5s;
+}
+
+.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.scroll-arrow {
+  display: block;
+  margin: 10px auto;
+  animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(10px);
+  }
+  60% {
+    transform: translateY(5px);
+  }
 }

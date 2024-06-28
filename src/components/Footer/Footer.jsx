@@ -6,7 +6,7 @@ const Footer = () => {
     <footer className="footer">
       <div className="container">
         <div className="footer-content">
-          <p className="footer-text mb-1 nameHover">
+          <p className="footer-text text-center mb-1 nameHover footerCol">
             Created By <br /> Manuel Dell'Oste © 2024
           </p>
           <div>
