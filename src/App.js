@@ -6,7 +6,7 @@ import MarqueeText from "./components/Marquee/Marquee.jsx";
 import Footer from "./components/Footer/Footer.jsx";
 import AboutMe from "./components/AboutMe/AboutMe.jsx";
 import Home from "./components/Home.jsx";
-
+import Contacts from "./components/Contacts/Contacts.jsx";
 function App() {
   return (
     <Router>
@@ -16,6 +16,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/aboutme" element={<AboutMe />} />
+        <Route path="/contacts" element={<Contacts />} />
       </Routes>
       <Footer />
     </Router>

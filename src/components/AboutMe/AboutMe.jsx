@@ -33,14 +33,24 @@ const AboutMe = () => {
       <Row className="justify-content-center">
         <Col md={8} className="text-center">
           <Link to="/">
-            <div className="d-flex">
+            <div className="d-flex assoluto">
               <i className="bi bi-arrow-return-left greenColor backArrow"></i>
               <h6 className="greenColor ms-1 mt-2">Home</h6>
             </div>
+            <Link to="/aboutme">
+              <Image
+                className="pianeta-image aboutme-planet rotating"
+                height={110}
+                src="/cvplanet.png"
+                rounded
+              />
+            </Link>
           </Link>
-          <i className="bi bi-person greenColor"></i>
-          <h2>Manuel Dell'Oste</h2>
-          <h2>5/6/90 Roma</h2>
+          <div>
+            <i className="bi bi-person greenColor"></i>
+            <h2>Manuel Dell'Oste</h2>
+            <h2>5/6/90 Roma</h2>
+          </div>
           <Image src="/profilee.jpg" roundedCircle className="profile-picture" />
 
           <div className="section hidden">
@@ -56,19 +66,19 @@ const AboutMe = () => {
               intraprendere un percorso biennale di Computer Grafica da AIV (Accademia Italiana
               Videogiochi). Aggiungo skill importanti nel mio bagaglio tecnico, come creazione di
               Texture, Modellazione 3D, Ambient Rendering e gestione delle luci oltre ad una grande
-              passione per Photoshop.Nel 2021 decido di aprire un e-commerce gestito interamente da
+              passione per Photoshop. Nel 2021 decido di aprire un e-commerce gestito interamente da
               me, creando un Brand e vendendo in tutta italia con discreti risultati. Questo aumenta
               la mia consapevolezza di quello che è il mondo del Marketing digitale. Il 3 gennaio
-              2024 comincio a studiare da FullStack Developer presso il corso semestrale di Epicode
+              2024 comincio a studiare da FullStack Developer presso il corso semestrale di Epicode,
               che prevede oltre 1000 ore di formazione, ovviamente dato il mio background grafico
               capisco subito che il FrontEnd è quello che più si avvicina al mio essere. Il mio
               obiettivo ora è quello di entrare nel mondo lavorativo come FrontEnd developer, in
               modo da acquisire esperienza su progetti reali.
               <br></br>
-              Spero vi siate fatti un opinione generale(spero positiva!) su di me, continua a
-              scorrere per scoprire altro !
+              Spero vi siate fatti un opinione generale (positiva!) su di me, continua a scorrere
+              per scoprire altro !
             </p>
-            <i class="bi bi-arrow-down greenColor scroll-arrow"></i>
+            <i className="bi bi-arrow-down greenColor scroll-arrow"></i>
           </div>
 
           <hr />
@@ -76,21 +86,21 @@ const AboutMe = () => {
           <h2>STUDI</h2>
           <div className="section hidden">
             <p className="about-me-text">
-              Nel lontano 2008 ricevo il diploma in Economia Aziendale presso il Paolo Baffi ITC di
+              Nel 2008 ricevo il diploma in Economia Aziendale presso il Paolo Baffi ITC di
               Fiumicino. Finito il liceo decido di intraprendere un corso di Grafica 3D presso AIV
               della durata biennale che prevedeva utilizzo di Software come PhotoShop, MAYA e
               Zbrush. Grazie anche queste conoscenze riesco a gestire la parte grafica del mio
-              E-Commerce che apro nel 2021. A Gennaio 2024 Intraprendo un corso Full/stack developer
-              di DIGICHAMPS tramite IFOA in collaborazione con EPICODE che prevede una durata
-              semestrale con più di 1000 ore di studio.
+              E-commerce. A Gennaio 2024 Intraprendo un corso Full/stack developer di DIGICHAMPS
+              tramite IFOA in collaborazione con EPICODE, che prevede una durata semestrale con più
+              di 1000 ore di studio.
             </p>
             <Image className="rotating mb-2" height={80} src="/maya.png" rounded />
             <Image className="mx-4 rotating mb-2" height={80} src="/ps.png" rounded />
             <Image className="rotating mb-2" height={80} src="/zbrush.png" rounded />
           </div>
-          <i class="bi bi-arrow-down greenColor scroll-arrow"></i>
+          <i className="bi bi-arrow-down greenColor scroll-arrow"></i>
           <hr />
-          <i class="bi bi-bookmark-star greenColor"></i>
+          <i className="bi bi-bookmark-star greenColor"></i>
           <h2>CONOSCENZE APPRESE</h2>
           <div className="section hidden">
             <p className="about-me-text">

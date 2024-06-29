@@ -15,20 +15,20 @@ const Footer = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <i className="bi bi-linkedin shadow me-2"></i>
+              <i className="bi bi-linkedin  me-2"></i>
             </a>
             <a
               href="https://www.instagram.com/manu_.sly/"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <i className="bi bi-instagram shadow me-2 instagramColor"></i>
+              <i className="bi bi-instagram  me-2 instagramColor"></i>
             </a>
             <a href="https://github.com/Manush90" target="_blank" rel="noopener noreferrer">
-              <i className="bi bi-github shadow me-2 githubColor"></i>
+              <i className="bi bi-github  me-2 githubColor"></i>
             </a>
             <a href="https://wa.me/YOUR_PHONE_NUMBER" target="_blank" rel="noopener noreferrer">
-              <i className="bi bi-whatsapp shadow whatsappColor "></i>
+              <i className="bi bi-whatsapp  whatsappColor "></i>
             </a>
           </div>
           <div className="footer-links footerCol">

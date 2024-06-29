@@ -19,3 +19,7 @@ div#basic-navbar-nav.navbar-collapse.collapse {
 .navback {
   background-color: transparent !important;
 }
+
+.colorVio {
+  color: purple !important;
+}
