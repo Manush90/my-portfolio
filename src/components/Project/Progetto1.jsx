@@ -52,7 +52,7 @@ const Progetto1 = () => {
           Ho utilizzato React come libreria JS, Bootstrap come framework <br /> e JS come linguaggio
           di programmazione
         </h5>
-        <div className="d-flex justify-content-center">
+        <div className="d-flex mb-4  justify-content-center">
           <Image className=" rotating mb-2" height={80} src="/bootstrap.png" rounded />
           <Image className=" mx-3 rotating mb-2" height={80} src="/react.png" rounded />
           <Image className="rotating mb-2" height={80} src="/js.png" rounded />

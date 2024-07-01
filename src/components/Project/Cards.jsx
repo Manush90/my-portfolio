@@ -44,7 +44,7 @@ const ProjectCards = () => {
                   <hr className="instagramColor" />
                   <p className="card-text">{project.description}</p>
                   <a
-                    href={project.link}
+                    href="/progetto1"
                     className="btn btn-primary"
                     target="_blank"
                     rel="noopener noreferrer"
