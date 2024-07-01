@@ -48,8 +48,16 @@ const MyMapComponent = () => {
         <h2>manuel.delloste@gmail.com</h2>
         <i className="bi bi-phone "></i>
         <h2>3518589141</h2>
-        <i className="bi bi-linkedin "></i>
-        <h2>LinkedIn Profile</h2>
+        <a
+          href="https://www.linkedin.com/in/manuel-dell-oste-15a3a35b/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="centericon"
+        >
+          <i className="bi bi-linkedin  me-2"></i>
+
+          <h2>LinkedIn Profile</h2>
+        </a>
         <i className="bi bi-cloud-arrow-down "></i>
         <h2>Scarica il mio CV</h2>
         <a

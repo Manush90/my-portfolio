@@ -37,18 +37,11 @@ const AboutMe = () => {
               <i className="bi bi-arrow-return-left greenColor backArrow"></i>
               <h6 className="greenColor ms-1 mt-2">Home</h6>
             </div>
-            <Link to="/aboutme">
-              <Image
-                className="pianeta-image aboutme-planet rotating"
-                height={110}
-                src="/cvplanet.png"
-                rounded
-              />
-            </Link>
           </Link>
           <div>
             <i className="bi bi-person greenColor"></i>
             <h2>Manuel Dell'Oste</h2>
+            <h2>FrontEnd Developer</h2>
             <h2>5/6/90 Roma</h2>
           </div>
           <Image src="/profilee.jpg" roundedCircle className="profile-picture" />
@@ -130,6 +123,7 @@ const AboutMe = () => {
             <Image className="rotating mb-3" height={80} src="/js.png" rounded />
             <Image className="mx-4 rotating mb-2" height={80} src="/php.png" rounded />
             <Image className="rotating mb-2" height={80} src="/wp.png" rounded />
+            <i className="bi bi-arrow-down greenColor scroll-arrow"></i>
           </div>
 
           <hr />
@@ -147,9 +141,11 @@ const AboutMe = () => {
               l'opportunità di lavorare in gruppi di lavoro molto grandi, gestire turni lavorativi
               di altre persone ed organizzare le routine Lavorative.
             </p>
+            <i className="bi bi-arrow-down greenColor scroll-arrow"></i>
           </div>
 
           <hr />
+
           <i className="bi bi-controller greenColor"></i>
           <h2>HOBBY</h2>
           <div className="section hidden">

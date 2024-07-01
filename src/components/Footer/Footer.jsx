@@ -27,7 +27,7 @@ const Footer = () => {
             <a href="https://github.com/Manush90" target="_blank" rel="noopener noreferrer">
               <i className="bi bi-github  me-2 githubColor"></i>
             </a>
-            <a href="https://wa.me/YOUR_PHONE_NUMBER" target="_blank" rel="noopener noreferrer">
+            <a href="https://wa.me/3518589141" target="_blank" rel="noopener noreferrer">
               <i className="bi bi-whatsapp  whatsappColor "></i>
             </a>
           </div>

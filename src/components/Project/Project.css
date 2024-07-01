@@ -1,0 +1,37 @@
+.card {
+  /* border: 1px solid purple; */
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.card-title {
+  color: white; /* Colore del titolo */
+  font-weight: bold;
+}
+
+.card-text {
+  color: white; /* Colore del testo della descrizione */
+}
+
+.btn-primary {
+  color: purple;
+  background-color: greenyellow; /* Colore di sfondo del bottone */
+  border-color: purple; /* Colore del bordo del bottone */
+}
+
+.btn-primary:hover {
+  background-color: purple; /* Colore di sfondo del bottone al passaggio del mouse */
+  border-color: greenyellow; /* Colore del bordo del bottone al passaggio del mouse */
+}
+
+.card-img-top {
+  width: 100%;
+  height: auto;
+}
+
+div.card-body {
+  background-color: #2c3e50;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}

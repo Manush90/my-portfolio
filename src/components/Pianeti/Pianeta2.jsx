@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
 import { Image } from "react-bootstrap";
+import { Link } from "react-router-dom";
 import "./pianeti.css";
 
 const Projects = () => {
@@ -23,7 +24,14 @@ const Projects = () => {
     <div className="d-flex mx-2">
       <div>
         <h2 className="text-center mb-3 planet-title">Projects</h2>
-        <Image className="pianeta-image projects-planet" height={110} src="/pianeta2.png" rounded />
+        <Link to="/Cards">
+          <Image
+            className="pianeta-image projects-planet"
+            height={110}
+            src="/pianeta2.png"
+            rounded
+          />
+        </Link>
       </div>
     </div>
   );
