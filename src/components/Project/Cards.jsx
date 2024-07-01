@@ -8,7 +8,7 @@ const projects = [
     title: "App Sportiva per Squadre di Club",
     description:
       "Questa App permette di consultare le ultime notizie, classifiche, partite di campionato e coppa. L'admin, inoltre, può inserire i risultati e i marcatori degli incontri delle partite disputate tramite un'interfaccia dedicata, cosi facendo andrà a popolare la classifica e il calendario.Inoltre gli admin hanno anche altri privilegi entra  nel progetto e scoprili!",
-    link: "https://link-al-progetto-1.com",
+    link: "/progetto1",
     image: "/cardproject.jpg",
   },
 ];
