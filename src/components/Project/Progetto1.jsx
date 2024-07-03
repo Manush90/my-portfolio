@@ -21,7 +21,7 @@ const Progetto1 = () => {
     };
 
     window.addEventListener("scroll", handleScroll);
-    handleScroll(); // Run once on mount to show already visible sections
+    handleScroll();
 
     return () => {
       window.removeEventListener("scroll", handleScroll);
@@ -202,6 +202,27 @@ const Progetto1 = () => {
           </Col>
           <Col md={6}>
             <Image src="/Footer.jpg" rounded fluid />
+          </Col>
+        </Row>
+
+        <Row className="align-items-center mb-4 section hidden">
+          <h3 className="greenColor text-center">Ovviamente Responsive!</h3>
+          <h4 className="text-white text-center mb-5">
+            Il sito è stato completamente ideato mobile-first
+          </h4>
+          <Col className="d-flex justify-content-center" md={4}>
+            <Image className="mb-1 borderGreen" src="/screenshot1.jpg" rounded fluid width="70%" />
+          </Col>
+
+          <Col className="d-flex justify-content-center" md={4}>
+            <video className="rounded mb-1 borderGreen" controls autoPlay loop muted width="70%">
+              <source src="/regresp.mp4" type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
+          </Col>
+
+          <Col className="d-flex justify-content-center" md={4}>
+            <Image className="mb-1 borderGreen" src="/screenshot2.jpg" rounded fluid width="70%" />
           </Col>
         </Row>
       </Container>

@@ -35,3 +35,7 @@ div.card-body {
   flex-direction: column;
   text-align: center;
 }
+
+.borderGreen {
+  border: 2px solid greenyellow;
+}
