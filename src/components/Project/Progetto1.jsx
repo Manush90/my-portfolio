@@ -5,6 +5,8 @@ import "bootstrap/dist/css/bootstrap.min.css";
 
 const Progetto1 = () => {
   useEffect(() => {
+    window.scrollTo(0, 0);
+
     const handleScroll = () => {
       const sections = document.querySelectorAll(".section");
       const triggerBottom = (window.innerHeight / 5) * 4;
