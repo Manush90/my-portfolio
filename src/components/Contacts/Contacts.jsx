@@ -61,7 +61,7 @@ const MyMapComponent = () => {
         <i className="bi bi-cloud-arrow-down "></i>
         <h2>Scarica il mio CV</h2>
         <a
-          href="https://drive.google.com/uc?export=download&id=1i1wZjU_SW1W0FuxkP41VSvU_V-BdRC6a"
+          href="https://drive.google.com/file/d/1uO8THmLeHpmeQeX_rnzX5P7k-H7H6XPF/view?usp=sharing"
           download
         >
           <img
