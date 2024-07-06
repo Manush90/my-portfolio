@@ -62,7 +62,7 @@ const MyMapComponent = () => {
         <h2>Scarica il mio CV</h2>
         <div className="d-flex flex-column">
           <a
-            href="https://drive.google.com/file/d/1uO8THmLeHpmeQeX_rnzX5P7k-H7H6XPF/view?usp=sharing"
+            href="https://drive.google.com/file/d/1cxmt2RlLl7LBRZpFIILMrgp6Sf95eAmO/view?usp=drive_link"
             download
           >
             <img
@@ -74,7 +74,7 @@ const MyMapComponent = () => {
             Ita
           </a>
           <a
-            href="https://drive.google.com/file/d/1uO8THmLeHpmeQeX_rnzX5P7k-H7H6XPF/view?usp=sharing"
+            href="https://drive.google.com/file/d/1uO8THmLeHpmeQeX_rnzX5P7k-H7H6XPF/view?usp=drive_link"
             download
           >
             <img
