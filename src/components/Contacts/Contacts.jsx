@@ -60,17 +60,32 @@ const MyMapComponent = () => {
         </a>
         <i className="bi bi-cloud-arrow-down "></i>
         <h2>Scarica il mio CV</h2>
-        <a
-          href="https://drive.google.com/file/d/1uO8THmLeHpmeQeX_rnzX5P7k-H7H6XPF/view?usp=sharing"
-          download
-        >
-          <img
-            className="rotating my-3"
-            src="/cvv.png"
-            alt="Scarica il mio CV"
-            style={{ cursor: "pointer", width: "60px" }}
-          />
-        </a>
+        <div className="d-flex flex-column">
+          <a
+            href="https://drive.google.com/file/d/1uO8THmLeHpmeQeX_rnzX5P7k-H7H6XPF/view?usp=sharing"
+            download
+          >
+            <img
+              className="rotating my-3"
+              src="/cvv.png"
+              alt="Scarica il mio CV ita"
+              style={{ cursor: "pointer", width: "60px" }}
+            />
+            Ita
+          </a>
+          <a
+            href="https://drive.google.com/file/d/1uO8THmLeHpmeQeX_rnzX5P7k-H7H6XPF/view?usp=sharing"
+            download
+          >
+            <img
+              className="rotating my-3"
+              src="/cvv.png"
+              alt="Scarica il mio CV eng"
+              style={{ cursor: "pointer", width: "60px" }}
+            />
+            Eng
+          </a>
+        </div>
         <i class="bi bi-geo-alt-fill"></i>
         <h2>Aranova/Roma/Italia</h2>
       </div>
