@@ -8,8 +8,17 @@ const projects = [
     title: "App Sportiva per Squadre di Club",
     description:
       "Questa App permette di consultare le ultime notizie, classifiche, partite di campionato e coppa. L'admin, inoltre, può inserire i risultati e i marcatori degli incontri delle partite disputate tramite un'interfaccia dedicata, cosi facendo andrà a popolare la classifica e il calendario.Inoltre gli admin hanno anche altri privilegi entra  nel progetto e scoprili!",
-    link: "/progetto1",
+    link: "https://aesseromanisti.netlify.app",
+    linkbutton: "/progetto1",
     image: "/cardproject.jpg",
+  },
+  {
+    title: "App Meteo -RightWeather-",
+    description:
+      "Questa App ti permette di inserire una località e visionare le principali info Metereologiche. Reperisce tutte le informazioni più aggiornate sulle varie città grazie all'API di OpenweatherMap. Una soluzione semplice efficace e leggera che da la possibilità all'utente di controllare una città italiana e non solo scrivendo semplicemente il nome !",
+    link: "https://rightweather.netlify.app",
+    linkbutton: "/progetto1",
+    image: "/meteo.jpg",
   },
 ];
 
@@ -36,7 +45,7 @@ const ProjectCards = () => {
                 <div className="card-body">
                   <h5 className="card-title">{project.title}</h5>
                   <a
-                    href="https://aesseromanisti.netlify.app"
+                    href={project.link}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="centericon"
@@ -47,7 +56,7 @@ const ProjectCards = () => {
                   </a>
                   <hr className="instagramColor" />
                   <p className="card-text">{project.description}</p>
-                  <Link to="/progetto1" className="btn btn-primary">
+                  <Link to={project.linkbutton} className="btn btn-primary">
                     Dettagli Progetto
                   </Link>
                 </div>
